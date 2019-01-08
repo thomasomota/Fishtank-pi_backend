@@ -18,10 +18,7 @@ def main():
 def feed():
     print("feed function fired")
     feed_fish()
-    return render_template('index.html')
-
-def setup():
-    pass    
+    return 200, OK
 
 def feed_fish():
 
