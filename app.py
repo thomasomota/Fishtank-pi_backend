@@ -18,7 +18,7 @@ def main():
 def feed():
     print("feed function fired")
     feed_fish()
-    return 200, OK
+    return "Fish is well fed"
 
 def feed_fish():
 
